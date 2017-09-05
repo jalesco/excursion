@@ -3,17 +3,33 @@ html {
   text-align: center;
 }
 
+/* Class to be applied on any tag needing Verdana font */
 .Verdana {
   font-family: Verdana;
 }
 
+/* Download link styles */
 .download-link {
   color: aquamarine;
   font-size: 16px;
 }
 
-h1 {
+/* Styles specific to the personal travel guide heading */
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+/* Main heading stylings. Used to customize styles only for main heading. */
+h1{
   font-weight: normal;
   font-size: 50px;
   color: white;
+}
+
+/* Will not override the .download-link class styles due to order of specificity for CSS */
+p {
+  font-size: 21px;
+  color: gray;
 }
