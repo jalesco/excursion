@@ -14,6 +14,10 @@ html {
   font-size: 16px;
 }
 
+#copyright {
+  text-align: right;
+}
+
 /* Styles specific to the personal travel guide heading */
 h2 {
   font-weight: 300;
